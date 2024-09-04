@@ -19,4 +19,5 @@
     --margin-index: 2vw;
     --gap-index: 1vw;
     --font-index: clamp(0.5rem, 2vw, 1rem);
+    --headings-index: 1.2;
 }

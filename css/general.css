@@ -7,3 +7,27 @@ html {
 body {
     margin: 0rem;
 }
+
+h1 {
+    font-size: calc(var(--font-index) * var(--headings-index) * 3.5);
+    margin-top: 0rem;
+    margin-bottom: var(--margin-index);
+}
+
+h2 {
+    font-size: calc(var(--font-index) * var(--headings-index) * 3);
+    margin-top: 0rem;
+    margin-bottom: calc(var(--margin-index) - 1.5rem);
+}
+
+h3 {
+    font-size: calc(var(--font-index) * var(--headings-index) * 2.5);
+    margin-top: 0rem;
+    margin-bottom: calc(var(--margin-index) - 1.8rem);
+}
+
+h4 {
+    font-size: calc(var(--font-index) * var(--headings-index) * 1.5);
+    margin-top: 0rem;
+    margin-bottom: calc(var(--margin-index) - 1.9rem);
+}
