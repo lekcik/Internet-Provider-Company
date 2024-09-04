@@ -5,6 +5,8 @@
 
     --clr-white: #fffef8;
 
+    --clr-white-70: rgba(255, 248, 248, 0.7);
+
     --clr-black: #1f231c;
     --clr-black-90: rgba(31, 35, 28, 0.9);
     --clr-black-75: rgba(31, 35, 28, 0.75);
@@ -20,4 +22,6 @@
     --gap-index: 1vw;
     --font-index: clamp(0.5rem, 2vw, 1rem);
     --headings-index: 1.2;
+
+    --transition-normal: 0.3s;
 }

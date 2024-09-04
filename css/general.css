@@ -40,6 +40,14 @@ h4 {
     align-items: center;
     justify-content: center;
     padding-top: var(--padding-index);
+    padding-bottom: var(--padding-index);
+
+    background-color: var(--clr-white-70);
+    background-image: url(../data/images/homepage/heroImage.small.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-blend-mode: lighten;
+
     z-index: 900;
 }
 
@@ -51,6 +59,7 @@ h4 {
 
 .heroSection p {
     text-align: center;
+    font-weight: 700;
     padding-left: var(--padding-index);
     padding-right: var(--padding-index);
 }
@@ -65,5 +74,12 @@ h4 {
     border: 0.2rem solid var(--clr-black);
     border-radius: 0.5rem;
     color: var(--clr-white);
-}   
+    transition: all var(--transition-normal);
+}
 
+.heroSection button:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+    box-shadow: 0rem 0.2rem 1rem black;
+    transform: translateY(-0.1rem);
+}
