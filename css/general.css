@@ -1,6 +1,9 @@
 html {
-    background: var(--clr-white);
     font-family: "Chivo Mono", monospace;
+    font-size: var(--font-index);
     color: var(--clr-black-90);
 }
 
+body {
+    margin: 0rem;
+}
