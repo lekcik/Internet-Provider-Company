@@ -3,16 +3,16 @@
     --clr-secondary: #DBD44F;
     --clr-gradient: 90deg, var(--clr-primary), var(--clr-secondary);
 
-    --clr-white: #fffef6;
+    --clr-white: #fffef8;
 
-    --clr-black: #2F362B;
-    --clr-black-90: rgba(47, 54, 43, 0.9);
-    --clr-black-75: rgba(47, 54, 43, 0.75);
-    --clr-black-50: rgba(47, 54, 43, 0.5);
-    --clr-black-25: rgba(47, 54, 43, 0.25);
-    --clr-black-10: rgba(47, 54, 43, 0.1);
-    --clr-black-05: rgba(47, 54, 43, 0.05);
-
+    --clr-black: #1f231c;
+    --clr-black-90: rgba(31, 35, 28, 0.9);
+    --clr-black-75: rgba(31, 35, 28, 0.75);
+    --clr-black-50: rgba(31, 35, 28, 0.5);
+    --clr-black-25: rgba(31, 35, 28, 0.25);
+    --clr-black-10: rgba(31, 35, 28, 0.1);
+    --clr-black-05: rgba(31, 35, 28, 0.05);
+    
     --clr-error: #DB684F;
 
     --padding-index: 1.5vw;

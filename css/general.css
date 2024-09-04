@@ -31,3 +31,39 @@ h4 {
     margin-top: 0rem;
     margin-bottom: calc(var(--margin-index) - 1.9rem);
 }
+
+/* hero */
+
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--padding-index);
+    z-index: 900;
+}
+
+.heroSection h1 {
+    text-align: center;
+    padding-left: var(--padding-index);
+    padding-right: var(--padding-index);
+}
+
+.heroSection p {
+    text-align: center;
+    padding-left: var(--padding-index);
+    padding-right: var(--padding-index);
+}
+
+.heroSection button {
+    margin-top: var(--margin-index);
+    background-color: var(--clr-black);
+    padding-top: var(--padding-index);
+    padding-bottom: var(--padding-index);
+    padding-left: calc(0.1rem + var(--padding-index));
+    padding-right: calc(0.1rem + var(--padding-index));
+    border: 0.2rem solid var(--clr-black);
+    border-radius: 0.5rem;
+    color: var(--clr-white);
+}   
+
