@@ -50,8 +50,16 @@ section {
     margin-bottom: var(--sections-gap-index);
 }
 
+section img {
+    min-width: 100%;
+    max-height: 45vh;
+    object-fit: cover;
+    object-position: center;
+}
+
 button.ctaBtn {
     margin-top: var(--margin-index);
+    margin-bottom: var(--margin-index);
     background-color: var(--clr-black);
     padding-top: var(--padding-index);
     padding-bottom: var(--padding-index);
@@ -62,6 +70,7 @@ button.ctaBtn {
     color: var(--clr-white);
     font-size: var(--font-index-btn);
     transition: all var(--transition-normal);
+    cursor: pointer;
 }
 
 button.ctaBtn:hover {

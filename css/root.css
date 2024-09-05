@@ -25,5 +25,7 @@
     --headings-index: 1.2;
     --sections-gap-index: clamp(4rem, 2vw, 8rem);
 
+    --section-textImg-padding-index: 15%;
+
     --transition-normal: 0.3s;
 }

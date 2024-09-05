@@ -1,5 +1,8 @@
 nav {
     position: sticky;
+    top: 0;
+    background-color: white;
+    padding-top: var(--padding-index);
     z-index: 1000;
 }
 
@@ -9,8 +12,7 @@ nav ul {
     justify-content: space-between;
     list-style-type: none;
     margin: 0;
-    margin-top: var(--margin-index);
-    margin-bottom: var(--margin-index);
+    margin-bottom: var(--padding-index);
     padding: 0;
 }
 
