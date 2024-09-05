@@ -2,3 +2,8 @@
     padding-left: var(--section-textImg-padding-index);
     padding-right: var(--section-textImg-padding-index);
 }
+
+.servicesSection {
+    padding-left: var(--section-services-padding-index);
+    padding-right: var(--section-services-padding-index);
+}

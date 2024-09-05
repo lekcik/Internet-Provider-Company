@@ -26,6 +26,9 @@
     --sections-gap-index: clamp(4rem, 2vw, 8rem);
 
     --section-textImg-padding-index: 15%;
+    --section-services-padding-index: 7.5%;
+
+    --section-2n-padding-index: 3vw;
 
     --transition-normal: 0.3s;
 }
