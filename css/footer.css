@@ -37,3 +37,11 @@ footer svg {
 footer p {
     margin-top: var(--margin-index);
 }
+
+/* media */
+
+@media all and (min-width: 600px) {
+    footer {
+        gap: calc(1rem + var(--gap-index));
+    }
+}

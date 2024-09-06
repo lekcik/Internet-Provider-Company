@@ -35,3 +35,11 @@
     --transition-normal: 0.3s;
     --transition-fast: 0.2s;
 }
+
+@media all and (min-width: 600px) {
+    :root {
+        --font-index: 1.2vw;
+        --font-index-btn: 1.3vw;
+        --padding-btn-index: 1.5vw;
+    }
+}

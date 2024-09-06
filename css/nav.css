@@ -1,4 +1,4 @@
-nav {
+nav:not(.navigation.footer) {
     position: sticky;
     top: 0;
     background-color: white;
@@ -41,6 +41,11 @@ nav svg {
     width: clamp(2rem, 2vw, 3.5rem);
 }
 
+nav .compNav {
+    display: none;
+    margin-left: var(--margin-index);
+}
+
 /* menu */ 
 
 aside.pageMenu {
@@ -65,7 +70,7 @@ aside.pageMenu.show {
 aside.pageMenu ul {
     display: flex;
     flex-direction: column;
-    gap: 10vh;
+    gap: 5vh;
 
     list-style-type: none;
     padding-left: calc(0.75rem + var(--padding-index));
@@ -80,11 +85,27 @@ aside.pageMenu a {
 aside.pageMenu ul li:first-of-type {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: -10vh;
+    margin-bottom: -4.5vh;
     margin-right: calc(-1.5rem + var(--padding-index));
 }
 
 aside.pageMenu svg {
     height: clamp(2rem, 2vw, 3.5rem);
     width: clamp(2rem, 2vw, 3.5rem);
+}
+
+/* meadia */
+
+@media all and (min-width: 600px) {
+    nav li:has(svg.menuIcon) {
+        display: none;
+    }
+
+    nav ul li:first-of-type {
+        flex: 1;
+    }
+
+    nav .compNav {
+        display: inline-block;
+    }
 }

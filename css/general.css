@@ -86,3 +86,9 @@ button.ctaBtn:hover {
     box-shadow: 0rem 0.2rem 1rem black;
     transform: translateY(-0.2rem);
 }
+
+/* media */
+
+@media all and (min-width: 600px) {
+    
+}

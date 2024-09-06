@@ -7,3 +7,36 @@
     padding-left: var(--section-services-padding-index);
     padding-right: var(--section-services-padding-index);
 }
+
+/* media */
+
+/* text right */
+
+@media all and (min-width: 600px) {
+    .textSection img.mobile {
+        display: none;
+    }
+
+    .textSection img.pc {
+        display: block;
+        width: 50%;
+    }
+
+    .textSection.right,
+    .textSection.left {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: calc(2rem + var(--gap-index));
+
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .textSection .whyUsDivider {
+        margin-top: calc(1rem + var(--margin-index));
+        margin-bottom: calc(1rem + var(--margin-index));
+    }
+}
+

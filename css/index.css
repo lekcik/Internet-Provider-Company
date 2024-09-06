@@ -8,7 +8,7 @@
 
     background-image: url(../data/images/homepage/heroImage.small.jpg);
     background-size: cover;
-    background-position: 50%;
+    background-position: center;
     background-blend-mode: lighten;
 }
 
@@ -92,4 +92,27 @@ section.whyUsSection h3 {
 
 .callToAction h2 {
     text-align: center;
+}
+
+/* media */
+
+@media all and (min-width: 600px) {
+    section.servicesSection .servicesPc {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: calc(0.5rem + var(--gap-index));
+
+        margin-left: calc(0rem - var(--margin-index));
+        margin-right: calc(0rem - var(--margin-index));
+    }
+}
+
+/* why us media */
+
+@media all and (min-width: 600px) {
+    section.whyUsSection {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
 }
