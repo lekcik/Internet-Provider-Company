@@ -80,3 +80,16 @@ section.whyUsSection h3 {
     margin-top: var(--margin-index);
     margin-bottom: var(--margin-index);
 }
+
+/* call to action */
+
+.callToAction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-index);
+}
+
+.callToAction h2 {
+    text-align: center;
+}
