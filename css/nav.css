@@ -63,6 +63,10 @@ aside.pageMenu.show {
 }
 
 aside.pageMenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+
     list-style-type: none;
     padding-left: calc(0.75rem + var(--padding-index));
     padding-right: calc(2.5rem + var(--padding-index));
@@ -76,11 +80,8 @@ aside.pageMenu a {
 aside.pageMenu ul li:first-of-type {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: -10vh;
     margin-right: calc(-1.5rem + var(--padding-index));
-}
-
-aside.pageMenu ul li:not(:first-of-type) {
-    margin-bottom: 10vh;
 }
 
 aside.pageMenu svg {
