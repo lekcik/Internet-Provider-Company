@@ -80,7 +80,7 @@ aside.pageMenu ul li:first-of-type {
 }
 
 aside.pageMenu ul li {
-    margin-bottom: calc(1rem + var(--margin-index));
+    margin-bottom: calc(5rem + var(--margin-index));
 }
 
 aside.pageMenu svg {
