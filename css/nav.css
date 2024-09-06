@@ -40,3 +40,46 @@ nav svg {
     height: clamp(2rem, 2vw, 3.5rem);
     width: clamp(2rem, 2vw, 3.5rem);
 }
+
+/* menu */ 
+
+aside.pageMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1100;
+
+    height: 100vh;
+    background-color: var(--clr-white);
+
+    opacity: 0;
+    width: 0;
+}
+
+aside.pageMenu.show {
+    border-left: 0.1rem solid var(--clr-black);
+    opacity: 1;
+    width: fit-content;
+}
+
+aside.pageMenu ul {
+    list-style-type: none;
+    padding-left: calc(0.5rem + var(--padding-index));
+    padding-right: calc(2rem + var(--padding-index));
+}
+
+aside.pageMenu a {
+    text-decoration: none;
+    color: var(--clr-black-90);
+}
+
+aside.pageMenu ul li:first-of-type {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: calc(-1.5rem + var(--padding-index));
+}
+
+aside.pageMenu svg {
+    height: clamp(2rem, 2vw, 3.5rem);
+    width: clamp(2rem, 2vw, 3.5rem);
+}
