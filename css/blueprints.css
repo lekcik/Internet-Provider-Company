@@ -1,3 +1,13 @@
+header.heroSection {
+    padding-left: var(--padding-index);
+    padding-right: var(--padding-index);
+}
+
+header.heroSection h1,
+header.heroSection p {
+    text-align: center;
+}
+
 .textSection {
     padding-left: var(--section-textImg-padding-index);
     padding-right: var(--section-textImg-padding-index);
