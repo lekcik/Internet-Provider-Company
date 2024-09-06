@@ -22,8 +22,8 @@
     --margin-index: 2vw;
     --gap-index: 1vw;
     --gap-index-footer: 4vw;
-    --font-index: clamp(0.5rem, 2vw, 1rem);
-    --font-index-btn: clamp(1rem, 2vw, 2rem);
+    --font-index: clamp(0.8rem, 2vw, 1.2rem);
+    --font-index-btn: clamp(1.2rem, 2vw, 2.2rem);
     --headings-index: 1.2;
     --sections-gap-index: clamp(4rem, 2vw, 8rem);
 
