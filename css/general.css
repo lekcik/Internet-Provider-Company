@@ -58,8 +58,8 @@ section:nth-of-type(2n) {
   }
 
 section img {
-    min-width: 100%;
-    max-height: 45vh;
+    width: 100%;
+    height: auto; 
     object-fit: cover;
     object-position: center;
 }
