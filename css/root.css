@@ -18,11 +18,12 @@
     --clr-error: #DB684F;
 
     --padding-index: 1.5vw;
+    --padding-btn-index: 2vw;
     --margin-index: 2vw;
     --gap-index: 1vw;
     --gap-index-footer: 4vw;
     --font-index: clamp(0.5rem, 2vw, 1rem);
-    --font-index-btn: clamp(0.75rem, 2vw, 1.25rem);
+    --font-index-btn: clamp(1rem, 2vw, 2rem);
     --headings-index: 1.2;
     --sections-gap-index: clamp(4rem, 2vw, 8rem);
 
