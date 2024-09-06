@@ -20,6 +20,7 @@
     --padding-index: 1.5vw;
     --margin-index: 2vw;
     --gap-index: 1vw;
+    --gap-index-footer: 4vw;
     --font-index: clamp(0.5rem, 2vw, 1rem);
     --font-index-btn: clamp(0.75rem, 2vw, 1.25rem);
     --headings-index: 1.2;

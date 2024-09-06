@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: var(--margin-index);
+    margin-bottom: var(--margin-index);
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 800;
+}
+
+footer nav a,
+footer .socialMedia a {
+    text-decoration: none;
+    color: var(--clr-black-90);
+}
+
+footer .socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-index-footer);
+}
+
+footer svg {
+    height: clamp(1.5rem, 2vw, 3rem);
+    width: clamp(1.5rem, 2vw, 3rem);
+}
+
+footer p {
+    margin-top: var(--margin-index);
+}
