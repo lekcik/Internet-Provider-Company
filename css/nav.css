@@ -79,8 +79,8 @@ aside.pageMenu ul li:first-of-type {
     margin-right: calc(-1.5rem + var(--padding-index));
 }
 
-aside.pageMenu ul li {
-    margin-bottom: calc(5rem + var(--margin-index));
+aside.pageMenu ul li:not(:first-of-type) {
+    margin-bottom: 10vh;
 }
 
 aside.pageMenu svg {
