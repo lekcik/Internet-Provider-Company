@@ -37,6 +37,6 @@ nav ul li a {
 }
 
 nav svg {
-    height: clamp(1.5rem, 2vw, 3rem);
-    width: clamp(1.5rem, 2vw, 3rem);
+    height: clamp(2rem, 2vw, 3.5rem);
+    width: clamp(2rem, 2vw, 3.5rem);
 }
