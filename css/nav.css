@@ -64,8 +64,8 @@ aside.pageMenu.show {
 
 aside.pageMenu ul {
     list-style-type: none;
-    padding-left: calc(0.5rem + var(--padding-index));
-    padding-right: calc(2rem + var(--padding-index));
+    padding-left: calc(0.75rem + var(--padding-index));
+    padding-right: calc(2.5rem + var(--padding-index));
 }
 
 aside.pageMenu a {
