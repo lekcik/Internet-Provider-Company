@@ -18,6 +18,10 @@ header.heroSection p {
     padding-right: var(--section-services-padding-index);
 }
 
+img.pc {
+    display: none;
+}
+
 /* media */
 
 /* text right */
