@@ -34,6 +34,9 @@
 
     --transition-normal: 0.3s;
     --transition-fast: 0.2s;
+
+    --animation-slow: 6s;
+    --animation-fast: 1s;
 }
 
 @media all and (min-width: 600px) {
