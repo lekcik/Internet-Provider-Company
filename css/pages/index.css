@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
 
-    background-image: url(../data/images/homepage/heroImage.small.jpg);
+    background-image: url(../../data/images/homepage/heroImage.small.jpg);
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten;
@@ -97,6 +97,10 @@ section.whyUsSection h3 {
 /* media */
 
 @media all and (min-width: 600px) {
+    .heroSection {
+        background-image: url(../../data/images/homepage/heroImage.medium.jpg);
+    }
+
     section.servicesSection .servicesPc {
         display: flex;
         align-items: flex-start;

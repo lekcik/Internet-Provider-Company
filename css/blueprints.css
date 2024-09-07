@@ -8,6 +8,10 @@ header.heroSection p {
     text-align: center;
 }
 
+header.heroSection.secondary {
+    background-color: var(--clr-black-05);
+}
+
 .textSection {
     padding-left: var(--section-textImg-padding-index);
     padding-right: var(--section-textImg-padding-index);
