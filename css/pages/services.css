@@ -1,0 +1,54 @@
+section.ourPlans h2 {
+    text-align: center;
+    margin-bottom: calc(2rem + var(--padding-index));
+}
+
+section.ourPlans .servicesPc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.ourPlans .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--clr-black-10);
+    padding: calc(1rem + var(--padding-index));
+    margin-bottom: calc(2.5rem + var(--margin-index));
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 1rem var(--clr-black-90);
+}
+
+section.ourPlans h3 {
+    margin-bottom: var(--margin-index);
+}
+
+section.ourPlans svg {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding-left: var(--padding-index);
+    margin-bottom: var(--margin-index);
+}
+
+section.ctaSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* media */
+
+@media all and (min-width: 600px) {
+    section.ourPlans .servicesPc {
+        flex-direction: row;
+        padding-left: var(--padding-index);
+        padding-right: var(--padding-index);
+        gap: calc(1rem + var(--gap-index));
+    }
+}
