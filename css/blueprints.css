@@ -10,6 +10,8 @@ header.heroSection p {
 
 header.heroSection.secondary {
     background-color: var(--clr-black-05);
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .textSection {

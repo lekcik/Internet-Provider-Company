@@ -1,0 +1,68 @@
+section.formSection {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+
+    gap: calc(0.5rem + var(--gap-index));
+    padding-left: var(--padding-index);
+    padding-right: var(--padding-index);
+}
+
+h3 {
+    margin-bottom: var(--margin-index);
+    text-align: center;
+}
+
+section.formSection div.pc {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+
+    gap: calc(0.5rem + var(--gap-index));
+}
+
+section.formSection input[type="text"] {
+    border: 0.1rem solid var(--clr-black-90);
+    border-radius: 1rem;
+
+    padding: var(--padding-index);
+}
+
+section.formSection textarea {
+    resize: vertical;
+    height: 20vh;
+    text-align: left; 
+    border: 0.1rem solid var(--clr-black-90);
+    padding: var(--padding-index);
+    box-sizing: border-box; 
+    color: var(--clr-black-90);
+}
+
+section.formSection .btnWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+section.formSection button {
+    width: fit-content;
+}
+
+/* media */
+
+@media all and (min-width: 600px) {
+    section.formSection {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    section.formSection div.pc {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.formSection div.pc input {
+        flex: 1;
+    }
+}
